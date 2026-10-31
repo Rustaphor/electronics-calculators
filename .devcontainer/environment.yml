@@ -1,0 +1,17 @@
+# This file is used to create a Conda environment for the devcontainer.
+name: electro-calcs
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+- python
+- numpy
+- scipy
+- matplotlib
+- ipywidgets
+- holoviews
+- pandas
+- python-dotenv
+- jupyterlab
+- notebook
+- voila
